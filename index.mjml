@@ -1,0 +1,145 @@
+<mjml>
+    <mj-head>
+        <mj-title>Event Invitation Email</mj-title> 
+        <mj-preview>
+            You're Invited to Our Exclusive Event!
+        </mj-preview>
+        <mj-font name="Noto Sans Georgian" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" />
+        <mj-font name="Roboto" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" />
+
+        <mj-attributes>
+            
+        </mj-attributes>
+        <mj-style>
+        
+           div > img{
+            padding: 7px;
+            border: 1px solid black;
+            border-radius: 50%;
+            margin: 0 1%
+           }
+            @media (max-width: 410px){
+           div > span{
+                display: none;
+            }
+           }
+          
+        </mj-style>
+    </mj-head>
+    <mj-body background-color="#f0f0f0">
+        
+        <mj-wrapper background-color="#194a7a" padding-top="0" padding-bottom="0"> 
+            <mj-hero
+                height="300px"
+                background-width="600px"
+                background-height="300px"
+                background-url="./images/darkened-image.jpeg"
+                background-color="#aaa" 
+            
+                >
+    
+                    <!-- <mj-text font-family="Roboto, Arial"color="white" padding="20px 40px" font-weight="bold" font-size="20px" >
+                        <span>INVITAION</span>
+                    </mj-text>
+                    <mj-text font-family="Noto Sans Georgian"color="white" align="right" padding-right="50px" font-weight="bold" font-size="15px">
+                        <span>Home</span>
+                        <span>Schedule</span>
+                        <span>Content</span>
+                    </mj-text> -->
+
+                    <mj-text font-family="Roboto, Arial"color="white" padding="20px 40px" font-weight="bold" font-size="20px" >
+                        <div style="display: inline-block; float:lef;">
+                            INVITAION
+                        </div>
+                        
+                    
+                       <div  style="display: inline-block; float:right; font-size:15px;">
+                        <span style="padding:0 10px;">Home</span>
+                        <span style="padding:0 10px;">Schedule</span>
+                        <span style="padding:0 10px;">Content</span>
+                       </div>
+                    </mj-text>
+
+
+                    <mj-text font-family="Roboto, Arial" color="white" align="center" font-weight="bold" padding-top="30px">
+                        25NOV 2024
+                        
+                    </mj-text>
+                    <mj-text font-family="Roboto, Arial" color="#3689dd" align="center" font-weight="bold" font-size="35px">
+                        BUSSINESS EVENT
+                    </mj-text>
+                    <mj-text font-family="Roboto, Arial" color="white" align="center" font-weight="bold">
+                        UNIVERSITY OF PALESTINE, GAZA
+                    </mj-text>
+             </mj-hero>
+             <mj-section>
+                <mj-column width="100%">
+                    <mj-text font-family="Roboto, Arial" color="white" align="center" padding="0 40px" line-height="20px" font-size="15px">
+                        <p>The event that we are gonna talk about today is a special even cause we are gonna do somthing wow inside our university. The event that we are gonna talk about today is a special even cause we are gonna do somthing wow inside our university. </p>
+                    </mj-text>
+                </mj-column>
+             </mj-section>
+             <mj-section>
+                <mj-column width="100%">
+                    <mj-text color="white" padding-left="30px" font-weight="bold" font-size="17px" >
+                        10:00 PM  <strong style="padding-left:40px;">WELCOME SPEECH</strong>
+                    </mj-text>
+                    <mj-divider  />
+                    <mj-text color="white" padding-left="150px" font-size="13.5px" padding-bottom="40px" line-height="15px">
+                        Today we are gonna talk about you. and how university effected you through your life.
+                    </mj-text>
+                </mj-column>
+                <mj-column width="100%">
+                    <mj-text color="white" padding-left="30px" font-weight="bold" font-size="17px">
+                        10:30 PM  <strong style="padding-left:40px;">WEB APPS</strong>
+                    </mj-text>
+                    <mj-divider  />
+                    <mj-text color="white" padding-left="150px" font-size="13.5px" padding-bottom="40px" line-height="15px">
+                        Today we are gonna talk about you. and how university effected you through your life.
+                    </mj-text>
+                </mj-column>
+                <mj-column width="100%">
+                    <mj-text color="white" padding-left="30px" font-weight="bold" font-size="17px">
+                        11:00 PM  <strong style="padding-left:40px;">10 TALKS 1 :FIREBASE 2.0</strong>
+                    </mj-text>
+                    <mj-divider  />
+                    <mj-text color="white" padding-left="150px" font-size="13.5px" padding-bottom="40px" line-height="15px">
+                        Today we are gonna talk about you. and how university effected you through your life.
+                    </mj-text>
+                </mj-column>
+                <mj-column width="100%">
+                    <mj-button font-weight="bold" font-size="16px" background-color="#f0f0f0" color="#000" href="http://www.youtube.com" padding-bottom="35px">
+                        BOOK NOW
+                    </mj-button>
+                </mj-column>
+             </mj-section>
+             <mj-section background-color="white" >
+                <mj-column width="100%">
+                    <mj-text align="center" color="#888">
+                        www.AhmadAlhennawi.com
+                    </mj-text>
+    
+            
+                </mj-column>
+                <mj-column width="100%">
+                    <mj-text align="center">
+                        <img src="./svg/facebook.svg" alt="" width="25px" href="http://facebook.com">
+                        <img src="./svg/youtube.svg" alt="" width="25px">
+                        <img src="./svg/google-plus.svg" alt="" width="25px">
+                        <img src="./svg/twitter.svg" alt="" width="25px">
+                    </mj-text>
+                </mj-column>
+                <mj-column width="100%">
+                     <mj-text align="center" color="#666">
+                        About us | Content us | Un Subscribed
+                    </mj-text>
+                    <mj-text align="center" color="#888" font-size="10px">
+                        Copyright©2002 - email template, All rights reserved.
+                    </mj-text>
+                </mj-column>
+             </mj-section>
+
+            
+        </mj-wrapper>
+    </mj-body>
+</mjml>
