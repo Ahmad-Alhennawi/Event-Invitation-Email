@@ -12,7 +12,8 @@
         </mj-attributes>
         <mj-style>
         
-           div > img{
+           div  img{
+            width: 25px;
             padding: 7px;
             border: 1px solid black;
             border-radius: 50%;
@@ -123,15 +124,15 @@
                 </mj-column>
                 <mj-column width="100%">
                     <mj-text align="center">
-                        <img src="./svg/facebook.svg" alt="" width="25px" href="http://facebook.com">
-                        <img src="./svg/youtube.svg" alt="" width="25px">
-                        <img src="./svg/google-plus.svg" alt="" width="25px">
-                        <img src="./svg/twitter.svg" alt="" width="25px">
+                        <a href="https://www.facebook.com" target="_blank"><img src="./svg/facebook.svg" alt="facebook"></a>
+                        <a href="https://www.youtube.com" target="_blank"><img src="./svg/youtube.svg" alt="youtube" ></a>
+                        <a href="https://www.google-plus.com" target="_blank"><img src="./svg/google-plus.svg" alt="google-plus" ></a>
+                        <a href="https://www.twitter.com" target="_blank"><img src="./svg/twitter.svg" alt="twitter" ></a>
                     </mj-text>
                 </mj-column>
                 <mj-column width="100%">
-                     <mj-text align="center" color="#666">
-                        About us | Content us | Un Subscribed
+                     <mj-text align="center" >
+                        <a href="">About us</a> | <a href="">Content us</a> | <a href="">Un-Subscribed</a>
                     </mj-text>
                     <mj-text align="center" color="#888" font-size="10px">
                         Copyright©2002 - email template, All rights reserved.
